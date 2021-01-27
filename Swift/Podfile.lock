@@ -15,6 +15,10 @@ PODS:
     - AEPAssurance/xcframeworks (= 1.1.0)
   - AEPAssurance/xcframeworks (1.1.0):
     - ACPCore (>= 2.9.0)
+  - AEPAudience (3.0.0-beta.1):
+    - AEPCore
+    - AEPIdentity
+    - AEPServices
   - AEPCore (3.0.0):
     - AEPRulesEngine (= 1.0.0)
     - AEPServices (= 3.0.0)
@@ -35,6 +39,7 @@ DEPENDENCIES:
   - ACPCore (from `https://github.com/adobe/aepsdk-compatibility-ios.git`, branch `main`)
   - AEPAnalyticsEdge (from `https://github.com/adobe/aepsdk-analyticsedge-ios`, tag `1.0.0-beta.2`)
   - AEPAssurance
+  - AEPAudience (from `https://github.com/adobe/aepsdk-audience-ios`, branch `main`)
   - AEPCore
   - AEPEdge
   - AEPIdentity
@@ -62,6 +67,9 @@ EXTERNAL SOURCES:
   AEPAnalyticsEdge:
     :git: https://github.com/adobe/aepsdk-analyticsedge-ios
     :tag: 1.0.0-beta.2
+  AEPAudience:
+    :branch: main
+    :git: https://github.com/adobe/aepsdk-audience-ios
   AEPSampleExtensionSwift:
     :branch: main
     :git: https://github.com/adobe/aepsdk-sample-extension-ios.git
@@ -73,6 +81,9 @@ CHECKOUT OPTIONS:
   AEPAnalyticsEdge:
     :git: https://github.com/adobe/aepsdk-analyticsedge-ios
     :tag: 1.0.0-beta.2
+  AEPAudience:
+    :commit: a986cc707e5f649f20f01ae478523cf31c9fac4c
+    :git: https://github.com/adobe/aepsdk-audience-ios
   AEPSampleExtensionSwift:
     :commit: a2092b20f2b1d9a513d1112c77852fa7dea3f50f
     :git: https://github.com/adobe/aepsdk-sample-extension-ios.git
@@ -81,6 +92,7 @@ SPEC CHECKSUMS:
   ACPCore: 67e4b855bf16cfb6a63024a4ddb73d15c0fd30e5
   AEPAnalyticsEdge: 141c2d0433723a404c774ab12f1e7de1ef3c6c2c
   AEPAssurance: c9c21b7e57bf993db210766631db2ef3732d4fa4
+  AEPAudience: 3938058d79961cdbad5cdad6a813cd0ecf0b80e9
   AEPCore: 9ced1f1fddcbfd61517461e548e36aee740bf7c8
   AEPEdge: 90ccd6aa9901a79be123ddee03e038f0d1837508
   AEPIdentity: 79c57508bbabc8c2cf7f90e2baed15b03f4e97e6
@@ -90,6 +102,6 @@ SPEC CHECKSUMS:
   AEPServices: 21ea64149483fdfbd5f88f546b9f5ad7d4987400
   AEPSignal: b4ac5c8e8c68e8902739426d70c01ed3ce229ac9
 
-PODFILE CHECKSUM: 6b1f55eb351b1bc39768b5c3694255f8b23aea88
+PODFILE CHECKSUM: 6748e3ba61496086f9bb0cf0aa22326855e4d323
 
 COCOAPODS: 1.10.0

@@ -33,6 +33,10 @@ import AEPEdge
 import AEPAnalyticsEdge
 //step-analytics-end
 
+//step-audience-start
+import AEPAudience
+//step-audience-end
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     private let LAUNCH_ENVIRONMENT_FILE_ID = ""
@@ -50,6 +54,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             //step-analytics-start
             , Analytics.self
             //step-analytics-end
+            //step-audience-start
+            , Audience.self
+            //step-audience-end
             ], {
 
             // Use the App id assigned to this application via Adobe Launch

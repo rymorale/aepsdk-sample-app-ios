@@ -23,7 +23,11 @@ class MainTabBarController: UITabBarController {
 
         let assuranceVC = AssuranceViewController(rootView: AssuranceView())
         assuranceVC.tabBarItem = UITabBarItem(title: "Assurance", image: nil, selectedImage: nil)
-        viewControllers = [coreVC, edgeVC, assuranceVC]
+        
+        let audienceVC = AudienceViewController(rootView: AudienceView())
+        audienceVC.tabBarItem = UITabBarItem(title: "Audience Manager", image: nil, selectedImage: nil)
+        
+        viewControllers = [coreVC, edgeVC, assuranceVC, audienceVC]
     }
 }
 

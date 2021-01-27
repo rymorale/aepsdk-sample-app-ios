@@ -35,6 +35,7 @@
 		D4E2FDD3252554E6001FE22D /* ProductListAdds.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2FDAF252554E6001FE22D /* ProductListAdds.swift */; };
 		D4E2FDD4252554E6001FE22D /* AuthenticatedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2FDB0252554E6001FE22D /* AuthenticatedState.swift */; };
 		D4E2FDD5252554E6001FE22D /* ProductListViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E2FDB1252554E6001FE22D /* ProductListViews.swift */; };
+		D6E641A125C2136600D9409D /* AudienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E641A025C2136600D9409D /* AudienceViewController.swift */; };
 		E85CDFD29B450F16196D4F79 /* Pods_AEPSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94C7204C94E9F5D9F472F31 /* Pods_AEPSampleApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,7 @@
 		D4E2FDAF252554E6001FE22D /* ProductListAdds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductListAdds.swift; path = xdmlib/ProductListAdds.swift; sourceTree = "<group>"; };
 		D4E2FDB0252554E6001FE22D /* AuthenticatedState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthenticatedState.swift; path = xdmlib/AuthenticatedState.swift; sourceTree = "<group>"; };
 		D4E2FDB1252554E6001FE22D /* ProductListViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductListViews.swift; path = xdmlib/ProductListViews.swift; sourceTree = "<group>"; };
+		D6E641A025C2136600D9409D /* AudienceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudienceViewController.swift; sourceTree = "<group>"; };
 		D94C7204C94E9F5D9F472F31 /* Pods_AEPSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AEPSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -113,6 +115,7 @@
 				3FEEA0E02523DBB4007EC317 /* CoreViewController.swift */,
 				782B982424D9BA89009C5902 /* MainTabBarController.swift */,
 				7876121024DC601B001CABB5 /* AssuranceViewController.swift */,
+				D6E641A025C2136600D9409D /* AudienceViewController.swift */,
 				D42BE5C22524569C00782C3C /* EdgeViewController.swift */,
 				3FEEA0E22524DA4A007EC317 /* ButtonStyle.swift */,
 				782B982924D9BA8C009C5902 /* Assets.xcassets */,
@@ -305,6 +308,7 @@
 				782B982124D9BA89009C5902 /* AppDelegate.swift in Sources */,
 				782B982324D9BA89009C5902 /* SceneDelegate.swift in Sources */,
 				3FEEA0E12523DBB5007EC317 /* CoreViewController.swift in Sources */,
+				D6E641A125C2136600D9409D /* AudienceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
